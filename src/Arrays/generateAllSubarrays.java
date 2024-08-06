@@ -1,6 +1,9 @@
 package Arrays;
 
 public class generateAllSubarrays {
+
+
+//    O(n^2)
     public static void solve(int[] arr){
         for(int i = 0; i < arr.length; i++){
             for(int j = i; j < arr.length; j++) {
