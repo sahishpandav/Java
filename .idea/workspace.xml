@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e5399a04-7b9b-4000-8602-9d33a5977390" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack/TrappingRainWaterI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack/TrappingRainWaterI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +145,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/MultiDimensionalArrays/SpiralMatrix.java</url>
+          <line>5</line>
+          <properties class="MultiDimensionalArrays.SpiralMatrix" method="spiralOrder">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
