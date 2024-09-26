@@ -1,7 +1,7 @@
-package Graphs;
+package Arrays;
 
-public class Bfs {
+public class PascalTriangle {
     public static void main(String[] args) {
-            
+
     }
 }

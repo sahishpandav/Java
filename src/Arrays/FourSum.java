@@ -1,6 +1,6 @@
-import java.sql.SQLOutput;
+package Arrays;
 
-public class Main {
+public class FourSum {
     public static void main(String[] args) {
         
     }

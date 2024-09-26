@@ -4,12 +4,12 @@ import java.util.ArrayList;
 public class SubsequenceWithSumKAnyOneSubsequenceII {
     public static boolean solve(int idx, int[] nums, ArrayList<Integer> ls, int sum, int target){
         if(idx == nums.length){
-//            condition satisfied
+//          condition satisfied
             if(sum == target){
                 System.out.println(ls);
                 return true;
             }
-//            condition not satisfied
+//          condition not satisfied
             else return false;
         }
 

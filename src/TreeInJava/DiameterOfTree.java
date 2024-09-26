@@ -8,7 +8,7 @@ public class DiameterOfTree {
         }
         int left = solve(root.left);
         int right = solve(root.right);
-        diameter = Math.max(diameter, left + right);
+        diameter = Math.max(diameter, left + right + 1);
         return  Math.max(left, right) + 1;
     }
 
@@ -21,7 +21,8 @@ public class DiameterOfTree {
         root.left.right = new TreeNode(5);
         root.left.right.right = new TreeNode(6);
         root.left.right.right.right = new TreeNode(7);
-        solve(root);
+//        solve(root);
+        System.out.println(solve(root));
         System.out.println(diameter);
 
 

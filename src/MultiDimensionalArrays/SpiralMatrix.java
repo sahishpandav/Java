@@ -7,6 +7,7 @@ public class SpiralMatrix {
         List<Integer> ans = new ArrayList<>();
         int rows = matrix.length;
         int cols = matrix[0].length;
+//        remember top and bottom variable be always rows and left and right will be columns.
         int total = rows*cols;
         int top = 0, left = 0, right = cols - 1, bottom = rows - 1;
         int cnt = 0;
